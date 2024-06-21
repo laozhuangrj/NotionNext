@@ -310,14 +310,14 @@ const BLOG = {
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
       name: 'canon in d',
-      artist: 'lzrj,
+      artist: 'lzrj',
       url: 'https://music.163.com/song?id=1091088',
       cover:
         'https://s2.music.126.net/style/web2/img/coverall.png?ab741818efe5f2bb3f0ff2f941e47a58'
     },
     {
       name: 'canon in d',
-      artist: 'kzrj',
+      artist: 'lzrj.fun',
       url: 'https://music.163.com/song?id=1091088',
       cover:
         'https://s2.music.126.net/style/web2/img/coverall.png?ab741818efe5f2bb3f0ff2f941e47a58'
