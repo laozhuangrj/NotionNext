@@ -19,7 +19,6 @@ import ExternalPlugins from '@/components/ExternalPlugins'
 import GlobalHead from '@/components/GlobalHead'
 
 //vercel新增部署
-import React from 'react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 /**
