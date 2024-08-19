@@ -18,6 +18,10 @@ import BLOG from '@/blog.config'
 import ExternalPlugins from '@/components/ExternalPlugins'
 import GlobalHead from '@/components/GlobalHead'
 
+//vercel新增部署
+import React from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 /**
  * App挂载DOM 入口文件
  * @param {*} param0
