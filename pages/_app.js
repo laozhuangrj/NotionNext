@@ -18,7 +18,6 @@ import BLOG from '@/blog.config'
 import ExternalPlugins from '@/components/ExternalPlugins'
 import GlobalHead from '@/components/GlobalHead'
 
-//vercel新增部署
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 /**
@@ -49,15 +48,18 @@ const MyApp = ({ Component, pageProps }) => {
     [queryParam]
   )
 
-  return (
-    <GlobalContextProvider {...pageProps}>
-      <GLayout {...pageProps}>
-        <GlobalHead {...pageProps} />
-        <Component {...pageProps} />
-      </GLayout>
-      <ExternalPlugins {...pageProps} />
-    </GlobalContextProvider>
-  )
+    return (
+    <>
+      <SpeedInsights />
+      <GlobalContextProvider {...pageProps}>
+        <GLayout {...pageProps}>
+          <GlobalHead {...pageProps} />
+          <Component {...pageProps} />
+        </GLayout>
+        <ExternalPlugins {...pageProps} />
+      </GlobalContextProvider>
+    </>
+  );
 }
 
 export default MyApp
